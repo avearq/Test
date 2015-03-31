@@ -29,6 +29,7 @@ namespace Projects
 
         private void Add_Loan_Load(object sender, EventArgs e)
         {
+            // comment
             c.Open();
             cmd.Connection = c;
             loadData();
